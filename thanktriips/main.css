@@ -23045,13 +23045,19 @@ img.tour-item-img-sm {
     position: relative;
     cursor: pointer;
     border-bottom: solid 1px rgb(0, 0, 0, 0.1);
-    padding-bottom: 15px;
+    margin-left: -25px;
+    margin-right: -25px;
+    padding: 15px 25px 15px 25px;
+}
+
+.tour-list-items:hover {
+    background: #F3F1F1 !important;
 }
 
 .tour-grid-item-options {
     position: absolute;
-    top: 10px;
-    right: 15px;
+    top: 30px;
+    right: 35px;
     color: #fff;
 }
 
@@ -23625,6 +23631,11 @@ ul.rc-menu.rc-menu-root.rc-menu-vertical {
     background: #f1f1f1 !important;
     border: none !important;
 }    
+
+.btn-transparent-background {
+    background: none;
+    border:none;
+}
 /*!
  * Font Awesome Pro 5.0.13 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Commercial License)
