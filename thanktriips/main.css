@@ -23189,6 +23189,7 @@ tr.MuiTableRow-root-3 {
 }
 
 /* chat */
+
 .chat-wrapper .chat-main-body {
     background: #fff !important;
 }
@@ -23555,12 +23556,12 @@ li.custom-list-item .row::before {
 
 .sortable-list-item-price::after {
     content: '\111';
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 
 div#create-board-area {
-    color: rgb(0,0,0,0.2);
-    border: dashed 3px rgb(0,0,0,0.2);
+    color: rgb(0, 0, 0, 0.2);
+    border: dashed 3px rgb(0, 0, 0, 0.2);
     border-radius: 15px;
     padding: 50px;
     text-align: center;
@@ -23568,7 +23569,7 @@ div#create-board-area {
 }
 
 div#create-board-area:hover {
-    background: rgb(0,0,0,0.05);
+    background: rgb(0, 0, 0, 0.05);
     /* border: dashed 3px rgb(0,0,0,0.4); */
 }
 
@@ -23577,11 +23578,13 @@ div#create-board-area:hover {
 }
 
 /* Radio form */
-.custom-control-input:checked ~ .custom-control-label::before {
+
+.custom-control-input:checked~.custom-control-label::before {
     background: #FF4827 !important;
 }
 
 /* Menu action */
+
 .menu-icon {
     cursor: pointer;
     color: rgb(0, 0, 0, 0.4);
@@ -23613,12 +23616,13 @@ ul.rc-menu.rc-menu-root.rc-menu-vertical {
 }
 
 /* Progress Chart */
+
 .progress-icon-1 {
     color: #EDECFE;
 }
 
 .progress-icon-2 {
-    color:  #A4A1FB;
+    color: #A4A1FB;
 }
 
 .user-avatar {
@@ -23630,12 +23634,17 @@ ul.rc-menu.rc-menu-root.rc-menu-vertical {
 #user-search-input:focus {
     background: #f1f1f1 !important;
     border: none !important;
-}    
+}
 
 .btn-transparent-background {
     background: none;
-    border:none;
+    border: none;
 }
+
+/* .custom-table {
+    border-collapse: separate;
+    border-spacing: 0 5px;
+} */
 /*!
  * Font Awesome Pro 5.0.13 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Commercial License)
