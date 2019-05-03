@@ -23641,10 +23641,22 @@ ul.rc-menu.rc-menu-root.rc-menu-vertical {
     border: none;
 }
 
-/* .custom-table {
-    border-collapse: separate;
-    border-spacing: 0 5px;
-} */
+.readonly {
+    pointer-events: none;
+}
+
+.classic_time.active.light {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.classic_time.light {
+    color: #000 !important;
+}
+
+.classic_time.light:hover {
+    color: #fff !important;
+}
 /*!
  * Font Awesome Pro 5.0.13 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Commercial License)
