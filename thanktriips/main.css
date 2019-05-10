@@ -23657,6 +23657,24 @@ ul.rc-menu.rc-menu-root.rc-menu-vertical {
 .classic_time.light:hover {
     color: #fff !important;
 }
+
+.custom-tab.list-inline-item {
+    position: relative;
+}
+
+.dot-notification {
+    font-size: x-small;
+    position: absolute;
+    top: -5px;
+    right: -15px;
+}
+
+.btn-add-image label {
+    width: 100%;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+    cursor: pointer;
+}
 /*!
  * Font Awesome Pro 5.0.13 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Commercial License)
