@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html,
+	body {
+		font-family: "Alexandria", serif;
+	}
+}
+
+@layer utilities {
+    .text-gradient {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    /* Animation */
+    .animate-fade-in {
+        animation: fadeIn 1.2s ease-in-out 0s forwards;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(48px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
