@@ -5,7 +5,7 @@ const menuItems: TypeMenuItem[] = [
     {
         title: 'home',
         icon: <HeroIcon.HomeIcon className="size-6 text-white lg:hidden" />,
-        href: '#'
+        href: '#home'
     },
     {
         title: 'skills',
@@ -17,11 +17,11 @@ const menuItems: TypeMenuItem[] = [
         icon: <HeroIcon.ComputerDesktopIcon className="size-6 text-white lg:hidden" />,
         href: '#projects'
     },
-    {
-        title: 'education',
-        icon: <HeroIcon.AcademicCapIcon className="size-6 text-white lg:hidden" />,
-        href: '#education'
-    },
+    // {
+    //     title: 'education',
+    //     icon: <HeroIcon.AcademicCapIcon className="size-6 text-white lg:hidden" />,
+    //     href: '#education'
+    // },
     {
         title: 'experience',
         icon: <HeroIcon.BriefcaseIcon className="size-6 text-white lg:hidden" />,
@@ -41,7 +41,12 @@ const Menu = () => {
         if (targetEl) {
             targetEl.scrollIntoView({
                 behavior: 'smooth'
-            })
+            });
+        } else {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
         }
     }
 

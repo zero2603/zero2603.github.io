@@ -127,7 +127,7 @@ const skillGroups: TypeSkillGroup[] = [
 
 const Skills = () => {
     return (
-        <section className="container py-8 lg:py-16">
+        <section className="container py-8 lg:py-16" id="skills">
             <div className="flex justify-center items-center mb-8">
                 <h2 className="text-5xl text-white font-bold bg-title text-gradient leading-tight">My Skills</h2>
             </div>

@@ -14,3 +14,11 @@ export type TypeSkillGroup = {
     title: string;
     skills: TypeSkill[];
 }
+
+export type TypeProject = {
+    title: string;
+    description: string;
+    tags: string[];
+    website: string;
+    featuredImage: ImageMetadata;
+}
