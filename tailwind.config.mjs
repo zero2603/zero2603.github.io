@@ -3,6 +3,15 @@ export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {
+			container: {
+				padding: {
+					DEFAULT: '1rem',
+					sm: '2rem',
+					lg: '4rem',
+					xl: '5rem',
+					'2xl': '6rem',
+				},
+			},
 			screens: {
 				'sm': '480px',
 				'md': '768px',
@@ -11,7 +20,10 @@ export default {
 				'2xl': '1536px'
 			},
 			colors: {
-				dark: '#0a0a0a',
+				dark: {
+					700: '#1b1623',
+					900: '#0a0a0a'
+				},
 				primary: '#22092C',
 				secondary: '#7e22ce',
 				'accent-orange': '#F05941',

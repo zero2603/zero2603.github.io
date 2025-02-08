@@ -32,7 +32,7 @@ const menuItems: TypeMenuItem[] = [
         icon: <HeroIcon.EnvelopeIcon className="size-6 text-white lg:hidden" />,
         href: '#contact'
     },
-]
+];
 
 const Menu = () => {
     const onClickMenuItem = (id: string) => {
@@ -46,7 +46,7 @@ const Menu = () => {
     }
 
     return (
-        <nav className="w-fit h-16 fixed top-12 left-1/2 -translate-x-1/2 rounded-xl bg-white/20 backdrop-blur-md">
+        <nav className="w-fit h-16 fixed top-12 left-1/2 -translate-x-1/2 rounded-xl bg-white/20 backdrop-blur-md z-[9999]">
             <ul className="h-full flex flex-row items-center">
                 {menuItems.map(menuItem => (
                     <li

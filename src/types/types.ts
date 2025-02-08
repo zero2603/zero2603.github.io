@@ -5,3 +5,12 @@ export type TypeMenuItem = {
     icon: ReactElement,
     href: string;
 }
+
+export type TypeSkill = {
+    title: string;
+}
+
+export type TypeSkillGroup = {
+    title: string;
+    skills: TypeSkill[];
+}

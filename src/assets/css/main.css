@@ -11,6 +11,10 @@
 }
 
 @layer utilities {
+    .container {
+        @apply max-w-none;
+    }
+
     .text-gradient {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
