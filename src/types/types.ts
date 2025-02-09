@@ -22,3 +22,11 @@ export type TypeProject = {
     website: string;
     featuredImage: ImageMetadata;
 }
+
+export type TypeCompany = {
+    name: string;
+    logo: ImageMetadata;
+    from: string;
+    to: string;
+    title: string;
+}

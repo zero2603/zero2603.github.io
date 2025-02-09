@@ -128,8 +128,9 @@ const skillGroups: TypeSkillGroup[] = [
 const Skills = () => {
     return (
         <section className="container py-8 lg:py-16" id="skills">
-            <div className="flex justify-center items-center mb-8">
+            <div className="flex flex-col justify-center items-center gap-6 mb-8">
                 <h2 className="text-5xl text-white font-bold bg-title text-gradient leading-tight">My Skills</h2>
+                <p className="w-full max-w-[512px] text-white text-center font-light">I specialize in frontend and backend technologies. Below, you can explore my key skills and the tools I use to build efficient and scalable solutions.</p>
             </div>
             <div className="columns-1 gap-8 md:columns-2 md:gap-6 lg:columns-3 lg:gap-8">
                 {skillGroups.map((skillGroup: TypeSkillGroup, index: number) => (

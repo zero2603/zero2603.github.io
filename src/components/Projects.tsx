@@ -66,7 +66,7 @@ const Projects = () => {
             <div className="relative flex flex-col gap-6 md:flex-row lg:gap-8 xl:gap-16">
                 <div className="flex flex-col justify-center items-center mb-8 h-dvh sticky top-0 md:items-start">
                     <h2 className="text-4xl text-white font-bold bg-title text-gradient leading-tight xl:text-5xl">Featured Projects</h2>
-                    <div className="text-base text-white font-light mt-8">A collection of projects showcasing my work.</div>
+                    <div className="text-base text-white text-center font-light mt-8 md:text-left">A collection of projects showcasing my work.</div>
                     <div className="flex flex-row items-center gap-4 mt-8">
                         <HeroIcon.ArrowDownIcon className="size-4 text-white animate-bounce" />
                         <div className="text-sm text-white lg:text-base">Scroll down</div>
