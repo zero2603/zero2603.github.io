@@ -1,4 +1,4 @@
-import type { ReactElement } from "react";
+import type { ReactElement, ReactNode } from "react";
 
 export type TypeMenuItem = {
     title: string;
@@ -29,4 +29,10 @@ export type TypeCompany = {
     from: string;
     to: string;
     title: string;
+}
+
+export type TypeContactUrl = {
+    url: string;
+    title: string;
+    color: string;
 }
