@@ -139,7 +139,7 @@ const Skills = () => {
                         className="pt-8 md:pt-6 lg:pt-8"
                     >
                         <div
-                            className="relative bg-dark-700 rounded-lg break-inside-avoid-column before:absolute before:content-[''] before:block before:w-8 before:h-8 before:bg-secondary before:-top-4 before:-left-4 before:-z-10 before:rounded-r-lg before:rounded-bl-lg"
+                            className="relative bg-dark-700 rounded-lg break-inside-avoid-column before:absolute before:content-[''] before:block before:w-8 before:h-8 before:bg-secondary before:-top-2 before:-left-2 before:-z-10 before:rounded-r-lg before:rounded-bl-lg lg:before:-top-4 lg:before:-left-4"
                         >
                             <div className="p-4 border-b border-secondary">
                                 <h4 className="text-white uppercase font-semibold">{skillGroup.title}</h4>

@@ -32,6 +32,8 @@ export default {
 			},
 			backgroundImage: {
 				title: 'linear-gradient(0deg, #7e22ce, #faf5ff)',
+				button: 'linear-gradient(90deg, #7e22ce, #1b1623)',
+				card: 'linear-gradient(135deg, #7e22ce, #0a0a0a)',
 			}
 		},
 	},

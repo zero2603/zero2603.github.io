@@ -12,7 +12,7 @@
 
 @layer utilities {
     .container {
-        @apply max-w-none;
+        @apply max-w-[1920px] mx-auto;
     }
 
     .text-gradient {

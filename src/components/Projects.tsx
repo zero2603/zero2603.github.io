@@ -4,6 +4,8 @@ import sellonboardImg from 'assets/images/sellonboard.png';
 import lucyfolkImg from 'assets/images/lucyfolk.png';
 import sarahandsebastianImg from 'assets/images/sarahandsebastian.png';
 import kaihoImg from 'assets/images/kaiho.jpg';
+import thoxaydungImg from 'assets/images/thoxaydung.png';
+import stayImg from 'assets/images/2stay.jpg';
 // component
 import * as HeroIcon from "@heroicons/react/24/outline"
 
@@ -50,13 +52,39 @@ const projects: TypeProject[] = [
     },
     {
         title: 'Kaiho OCR',
-        description: "Kaiho Industry EC site: for those who want to order used engines & auto parts container online. The World's first e-commerce site where product selection, ordering, and container shipping can all be completed online.Rest assured, you will be able to check the engine condition with a video. We are one of the leading Japanese used engines and parts suppliers.",
+        description: "Kaiho OCR is an application that manages the recycling of used cars and their auto parts. You can view vehicle information by taking a picture of the caution plate, vehicle inspection certificate, and VIN code from the app and reading the information with AI-OCR. Also, by using the AI ​​image recognition function of the app, you can quickly check the detailed engine information of the vehicle.",
         tags: [
             'React Native',
             'NodeJS'
         ],
         featuredImage: kaihoImg,
         website: 'https://play.google.com/store/apps/developer?id=KAIHO+INDUSTRY+Co.,+LTD.'
+    },
+    {
+        title: 'Thợ Xây Dựng',
+        description: "`Thợ Xây Dựng` is a platform application that connects jobs with workers and facilitates the sharing of construction machines and equipment. Users include general laborers and construction workers, as well as individuals and organizations looking to hire or rent/sell construction machines and equipment.",
+        tags: [
+            'Micro-services',
+            'AWS',
+            'NodeJS',
+            'ReactJS',
+            'React Native',
+            'Ant Design'
+        ],
+        featuredImage: thoxaydungImg
+    },
+    {
+        title: '2stay',
+        description: "Providing a comprehensive range of essential travel services, 2Stay offers users a diverse selection, including hotel bookings, ultra-budget flight tickets, transportation reservations, and even all-inclusive tour packages through the app.",
+        tags: [
+            'Micro-services',
+            'AWS',
+            'NodeJS',
+            'ReactJS',
+            'React Native',
+            'Ant Design'
+        ],
+        featuredImage: stayImg
     }
 ]
 
