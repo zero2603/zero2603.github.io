@@ -5,10 +5,6 @@ import avatarImg from 'assets/images/avatar.jpg'
 import * as HeroIcon from "@heroicons/react/24/outline"
 
 const Hero = () => {
-    const onViewResume = () => {
-        window.open('/Pham_Thu_CV.pdf', '_blank');
-    }
-
     const onContact = () => {
         const targetEl = document.querySelector('#contact');
         if (targetEl) targetEl.scrollIntoView({ behavior: 'smooth' });
@@ -24,13 +20,6 @@ const Hero = () => {
                         <span className="block opacity-0 animate-fade-in" style={{ "--animation-order": 2 } as CSSProperties}>I build things for web.</span>
                     </h2>
                     <div className="flex flex-col gap-4 items-center mt-8 opacity-0 animate-fade-in md:flex-row md:gap-6" style={{ "--animation-order": 4 } as CSSProperties}>
-                        <button
-                            className="px-4 py-2 flex items-center gap-2 border border-white border-2 rounded-full bg-button text-sm text-white transtion-all duration-300 hover:bg-none lg:text-base xl:px-6 xl:py-3"
-                            onClick={onViewResume}
-                        >
-                            <HeroIcon.DocumentTextIcon className='size-4 text-white' />
-                            View my resume
-                        </button>
                         <button
                             className="px-4 py-2 flex items-center gap-2 border border-white border-2 rounded-full bg-none text-sm text-white transtion-all duration-300 hover:bg-button lg:text-base xl:px-6 xl:py-3"
                             onClick={onContact}
